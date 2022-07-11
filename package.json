@@ -6,7 +6,12 @@
   "types": "./index.d.ts",
   "license": "MIT",
   "author": { "name": "Artur Frank", "url":"https://vk.com/gmelum"},
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "dsedinkin",
+      "url": "https://github.com/dsedinkin"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GMELUM/elum-libs.git"
