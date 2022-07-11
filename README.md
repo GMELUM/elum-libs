@@ -2,7 +2,7 @@
 
 Тут собраны некоторые полезные функции написанные под определенные задачи или адаптированны уже существующие коды.
 
-[toshort](https://github.com/GMELUM/elum-libs/blob/master/src/toShort/README.md) - Сокращение числа.
+[toShort](https://github.com/GMELUM/elum-libs/blob/master/src/toShort/README.md) - Сокращение числа.
 
 [clamp](https://github.com/GMELUM/elum-libs/blob/master/src/clamp/README.md) - Проверка вхождения числа в интервал от min до max.
 
