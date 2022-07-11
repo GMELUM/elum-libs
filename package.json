@@ -1,4 +1,15 @@
 {
+  "author": { "name": "Artur Frank", "url":"https://vk.com/gmelum"},
+  "contributors": [
+    {
+      "name": "dsedinkin",
+      "url": "https://github.com/dsedinkin"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMELUM/elum-libs.git"
+  },
   "scripts": {
     "build": "yarn test && tsc && cp -r static/* ./dist",
     "start": "yarn build && cross-env NODE_PATH=./dist nodemon",
