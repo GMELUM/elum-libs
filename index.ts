@@ -2,5 +2,6 @@ import {
   toShort,
   decWord,
   timeAgo,
-  clamp
+  clamp,
+  sliceArray
 } from "./dist";
