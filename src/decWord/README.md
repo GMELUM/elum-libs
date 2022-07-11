@@ -5,7 +5,7 @@
 > **es6**
 
 ```ts
-import { decWords } from "elum-libs";
+import { decWord } from "elum-libs";
 
 decWord(1, ["рубль", "рубля", "рублей"]); // "рубль"
 decWord(2, ["рубль", "рубля", "рублей"]); // "рубля"
@@ -17,7 +17,7 @@ decWord(211, ["рубль", "рубля", "рублей"]); // "рублей"
 > **es5**
 
 ```js
-const { decWords } = requeire("elum-libs");
+const { decWord } = requeire("elum-libs");
 
 decWord(1, ["рубль", "рубля", "рублей"]); // "рубль"
 decWord(2, ["рубль", "рубля", "рублей"]); // "рубля"
