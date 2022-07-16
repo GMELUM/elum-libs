@@ -1,6 +1,6 @@
 {
   "name": "elum-libs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -10,6 +10,10 @@
     {
       "name": "dsedinkin",
       "url": "https://github.com/dsedinkin"
+    },
+    {
+      "name": "im-rasulev",
+      "url": "https://github.com/im-rasulev"
     }
   ],
   "repository": {
