@@ -1,5 +1,8 @@
 {
-  "author": { "name": "Artur Frank", "url":"https://vk.com/gmelum"},
+  "author": {
+    "name": "Artur Frank",
+    "url": "https://vk.com/gmelum"
+  },
   "contributors": [
     {
       "name": "dsedinkin",
@@ -29,7 +32,9 @@
     "exec": "tsc && ts-node index.ts"
   },
   "devDependencies": {
+    "@types/benchmark": "^2.1.1",
     "@types/jest": "^28.1.4",
+    "benchmark": "^2.1.4",
     "jest": "^28.1.2",
     "nodemon": "^2.0.19",
     "ts-jest": "^28.0.5",

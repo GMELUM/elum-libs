@@ -45,3 +45,10 @@ toShort(9900000); // "9.9M"
 toShort(1000, ruParts); // "1тыс."
 toShort(1000000, ruParts); // "1млн"
 ```
+
+> **benchmark**
+
+```js
+toShort(10000000);
+// toShort x 21,190,569 ops/sec ±1.73% (87 runs sampled)
+```

@@ -54,3 +54,11 @@ timeAgo(staticDate(day * 4)); // "14 июл 2020 г."
 timeAgo(staticDate(day * 10)); // "20 июл 2020 г."
 timeAgo(new Date("01.01.1997").getTime()); // "1 янв 1997 г."
 ```
+
+> **benchmark**
+
+```js
+const time = new Date().getTime() - 6000;
+timeAgo(time);
+// timeAgo x 2,964,086 ops/sec ±1.08% (93 runs sampled);
+```
