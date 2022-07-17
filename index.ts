@@ -14,7 +14,6 @@ suite
   .add("toShort", () => toShort(10000000))
   .add("clamp", () => clamp(0, -100, 100))
   .add("decWord", () => decWord(21, ["рубль", "рубля", "рублей"]))
-  .add("decWord", () => decWord(21, ["рубль", "рубля", "рублей"]))
   .add("sliceArray", () => sliceArray(21, array))
   .add("timeAgo", () => timeAgo(time))
   .on("cycle", (event: any) => console.log(String(event.target)))
