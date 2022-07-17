@@ -20,7 +20,7 @@ sliceArray(6, array); // [[1,2,3,4,5]]
 > **es5**
 
 ```js
-const { sliceArray } = requeire("elum-libs");
+const { sliceArray } = require("elum-libs");
 
 const array = [1, 2, 3, 4, 5];
 

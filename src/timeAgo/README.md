@@ -32,7 +32,7 @@ timeAgo(new Date("01.01.1997").getTime()); // "1 янв 1997 г."
 > **es5**
 
 ```js
-const { timeAgo } = requeire("elum-libs");
+const { timeAgo } = require("elum-libs");
 
 const date = new Date("07.10.2020");
 const second = 1000;

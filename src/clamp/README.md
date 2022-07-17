@@ -17,7 +17,7 @@ clamp(-100, 50, 100); // 50
 > **es5**
 
 ```js
-const { clamp } = requeire("elum-libs");
+const { clamp } = require("elum-libs");
 
 clamp(100, 50, 100); // 100
 clamp(75, 50, 100); // 75

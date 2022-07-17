@@ -27,7 +27,7 @@ toShort(1000000, ruParts); // "1млн"
 > **es5**
 
 ```js
-const { toShort } = requeire("elum-libs");
+const { toShort } = require("elum-libs");
 
 const ruParts = ["", "тыс.", "млн", "млдр", "трлн"];
 
