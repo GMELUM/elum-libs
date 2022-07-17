@@ -30,5 +30,5 @@ decWord(211, ["рубль", "рубля", "рублей"]); // "рублей"
 
 ```js
 decWord(21, ["рубль", "рубля", "рублей"]);
-// decWord x 70,856,608 ops/sec ±1.35% (94 runs sampled);
+// decWord x 72,076,367 ops/sec ±0.43% (94 runs sampled);
 ```

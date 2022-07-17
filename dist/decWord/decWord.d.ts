@@ -1,2 +1,2 @@
-declare const decWord: (n: number, titles: string[]) => string;
+declare const decWord: (n: number, words: string[]) => string;
 export default decWord;
